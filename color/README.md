@@ -1,0 +1,13 @@
+# memo
+- PigmentData
+    - 試料のD65光源での分光反射率のデータ
+- D65.dat
+    - D65の5nmごとの相対分光分布
+- XYZ_CIE_2.dat
+    - CIEXYZ1931色空間の等色関数
+- \*.java
+    - データを適宜線形補間し、積分の手順で色彩値XYZを求める
+- main.py
+    - colour-scienceを利用
+    - XYZ、sRGB、xy色度図の描画
+    - 検証用
